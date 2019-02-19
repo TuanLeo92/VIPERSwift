@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Tý</string>
+		<key>description</key>
+		<string>Trong phong thủy, chuột bị coi là con vật không mang lại sự may mắn, thậm chí còn bị coi là hung thú. Muốn hóa giải sát khí của chuột, mọi người thường dán tranh Môn Thần (thần giữ của), Thổ Địa Công hoặc gương Bát quái.</string>
+		<key>image</key>
+		<string>mouse.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Sửu</string>
+		<key>description</key>
+		<string>Loài vật này được coi là biểu tượng cát lợi. Nếu treo tranh này theo hướng Đông Bắc thiên về Bắc thì gia chủ sẽ lại càng đại cát đại lợi. Trong trường hợp không treo tranh này, chủ nhân có thể treo tranh “tam cát”: trâu, gà và rắn cũng mang lại nhiều điều may mắn.</string>
+		<key>image</key>
+		<string>buffalo.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Dần</string>
+		<key>description</key>
+		<string>Hổ là biểu tượng của sức mạnh và quyền lực. Nếu gia chủ là quân nhân, cảnh sát, quan tòa hay làm việc về lĩnh vực thuế nên treo tranh con hổ. Đặc biệt đối với những chủ nhân thuộc tuổi Ngọ, tuổi Tuất treo tranh con hổ sẽ khiến âm khí bị tiêu tán, dương khí ngày càng hưng thịnh. Nếu người chủ cầm tinh hổ thì treo tranh này lại càng tốt.</string>
+		<key>image</key>
+		<string>tiger.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Mão</string>
+		<key>description</key>
+		<string>Mọi người thường treo tranh con mèo với ý nghĩa hóa giải hung sát. Tuy nhiên, đối với những hung sát mạnh như “lộ sát” (đường đâm thẳng vào nhà), “thiên trảm sát” (hai nhà bên cao hơn),… thì ngoài việc treo tranh còn phải kết hợp thêm nhiều yếu tố khác.</string>
+		<key>image</key>
+		<string>cat.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>5</integer>
+		<key>name</key>
+		<string>Thìn</string>
+		<key>description</key>
+		<string>Đây là một con vật không có thật. Nhưng trong suy nghĩ của mọi người, rồng mang lại rất nhiều may mắn. Nếu gia chủ muốn quan hệ ngoại giao ngày càng tiển triển thuận lợi thì nên treo biểu tượng này ở hướng Thanh Long (bên trái - tính từ trong nhà nhìn ra) hoặc có thể đặt tượng rồng nhìn ra cửa.</string>
+		<key>image</key>
+		<string>dragon.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>Tỵ</string>
+		<key>description</key>
+		<string>Loài vật này mang âm khí nặng nên mọi người tránh không treo biểu tượng này.</string>
+		<key>image</key>
+		<string>snake.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>7</integer>
+		<key>name</key>
+		<string>Ngọ</string>
+		<key>description</key>
+		<string>Nói đến ngựa là nói đến việc xoay chuyển tài vận khiến sự nghiệp phát triển. Chính vì thế, trong nhà treo tranh mang hình này thúc đẩy sự nghiệp ngày càng phát đạt, tấn tới. Hướng tốt nhất để treo tranh là hướng Nam. Đây là phương vị mang lại nhiều tài lộc nên chủ nhân cần lưu ý thì mới phát huy tác dụng.</string>
+		<key>image</key>
+		<string>horse.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>8</integer>
+		<key>name</key>
+		<string>Mùi</string>
+		<key>description</key>
+		<string>Tranh mang biểu tượng này có thể tăng tính nhẫn nại và ý chí cho gia chủ. Vì lẽ đó, tranh, tượng con dê cũng được chủ nhân để tâm coi trọng.</string>
+		<key>image</key>
+		<string>goat.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>9</integer>
+		<key>name</key>
+		<string>Thân</string>
+		<key>description</key>
+		<string>Đây là loài động vật rất thông minh, khôn khéo và rất nhanh nhẹn tuy nhiên nó cũng mang chút ma mãnh, đố kỵ. Vì lẽ đó, mọi người cũng kiêng không treo tranh này.</string>
+		<key>image</key>
+		<string>monkey.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>10</integer>
+		<key>name</key>
+		<string>Dậu</string>
+		<key>description</key>
+		<string>Tranh mang hình tượng gà có tác dụng làm tinh thần phấn chấn và luôn tiến về phía trước. Những người ham chơi, nhút nhát nên treo tranh này để thúc đẩy bản thân, nâng cao tinh thần hăng hái làm việc.</string>
+		<key>image</key>
+		<string>chicken.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>11</integer>
+		<key>name</key>
+		<string>Tuất</string>
+		<key>description</key>
+		<string>Chó là loài động vật rất thân thiết và gần gũi với con người. Ngoài làm bạn với chủ, nó còn đảm nhiệm một công việc hết sức quan trọng là coi giữ nhà cửa. Trong nhà có thể đặt tượng chó nhưng không nên bày hai con ở hai bên. Vì sự kết hợp này mang lại điều xui xẻo, bất lợi cho gia chủ.</string>
+		<key>image</key>
+		<string>dog.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>Hợi</string>
+		<key>description</key>
+		<string>Con vật này vừa mang biểu tượng no đủ, giàu sang nhưng mặt khác lại biểu thị sự lười biếng. Chính vì vậy, khi treo tranh nên kết hợp: lợn, hổ, ngựa để trở thành tranh “tam cát”.</string>
+		<key>image</key>
+		<string>pig.jpg</string>
+		<key>age</key>
+		<integer>0</integer>
+		<key>weight</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>
