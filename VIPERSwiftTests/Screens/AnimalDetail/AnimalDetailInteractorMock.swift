@@ -9,8 +9,8 @@
 @testable import VIPERSwift
 
 class AnimalDetailInteractorMock: AnimalDetailInteractorType {
-
-    var presenter: AnimalListPresenterType!
-    var repository: AnimalListRepositoryType!
     
+    var presenter: AnimalDetailPresenterType!
+    var repository: AnimalDetailRepositoryType!
+
 }
