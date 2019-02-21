@@ -10,8 +10,6 @@ import UIKit
 
 protocol AnimalDetailRouterType: Router {
     
-    static func createAnimalDetailPresenter(_ referenceView: AnimalDetailView)
-    
     func backToAnimalListScreen(from navigation: UINavigationController?)
     
 }

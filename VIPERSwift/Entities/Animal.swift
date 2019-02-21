@@ -6,7 +6,7 @@
 //  Copyright © 2019 Le Tuan. All rights reserved.
 //
 
-class Animal {
+final class Animal {
     
     var id: Int
     var name: String
@@ -22,6 +22,17 @@ class Animal {
         self.image = ""
         self.age = nil
         self.weight = nil
+    }
+    
+    convenience init(id: Int, name: String, description: String?,
+                     image: String?, age: Int?, weight: Float?) {
+        self.init()
+        self.id = id
+        self.name = name
+        self.description = description
+        self.image = image
+        self.age = age
+        self.weight = weight
     }
 }
 
