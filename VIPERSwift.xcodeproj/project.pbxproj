@@ -58,6 +58,19 @@
 		17B12334221A634900B3E94F /* APIRequestComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B12333221A634900B3E94F /* APIRequestComponents.swift */; };
 		17B12336221A659800B3E94F /* API+Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B12335221A659800B3E94F /* API+Animal.swift */; };
 		17B12338221A65A800B3E94F /* Local+Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B12337221A65A800B3E94F /* Local+Animal.swift */; };
+		17B581C3221E42B700473129 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 17B581C2221E42B700473129 /* .gitignore */; };
+		17B581C7221E443500473129 /* AnimalMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581C6221E443500473129 /* AnimalMock.swift */; };
+		17B581C9221E449300473129 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581C8221E449300473129 /* Mockable.swift */; };
+		17B581CD221E49B300473129 /* AnimalDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581CC221E49B300473129 /* AnimalDetailViewTests.swift */; };
+		17B581CF221E49EC00473129 /* AnimalDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581CE221E49EC00473129 /* AnimalDetailPresenterTests.swift */; };
+		17B581D1221E4A0E00473129 /* AnimalDetailInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D0221E4A0E00473129 /* AnimalDetailInteractorMock.swift */; };
+		17B581D3221E4A3100473129 /* AnimalDetailRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D2221E4A3000473129 /* AnimalDetailRouterMock.swift */; };
+		17B581D5221E4A4A00473129 /* AnimalListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D4221E4A4A00473129 /* AnimalListViewTests.swift */; };
+		17B581D7221E4A5E00473129 /* AnimalListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D6221E4A5D00473129 /* AnimalListPresenterTests.swift */; };
+		17B581D9221E4A7100473129 /* AnimalListInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D8221E4A7100473129 /* AnimalListInteractorMock.swift */; };
+		17B581DB221E4A8B00473129 /* AnimalListRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581DA221E4A8B00473129 /* AnimalListRouterMock.swift */; };
+		17B581DD221E5B7400473129 /* AnimalListViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581DC221E5B7400473129 /* AnimalListViewMock.swift */; };
+		17B581DF221E604400473129 /* AnimalDetailViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581DE221E604400473129 /* AnimalDetailViewMock.swift */; };
 		17D8ABA1221B9F7A00BE0A17 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8AB95221B9F7900BE0A17 /* dog.jpg */; };
 		17D8ABA2221B9F7A00BE0A17 /* horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8AB96221B9F7900BE0A17 /* horse.jpg */; };
 		17D8ABA3221B9F7A00BE0A17 /* chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8AB97221B9F7900BE0A17 /* chicken.jpg */; };
@@ -155,6 +168,19 @@
 		17B12333221A634900B3E94F /* APIRequestComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestComponents.swift; sourceTree = "<group>"; };
 		17B12335221A659800B3E94F /* API+Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Animal.swift"; sourceTree = "<group>"; };
 		17B12337221A65A800B3E94F /* Local+Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Local+Animal.swift"; sourceTree = "<group>"; };
+		17B581C2221E42B700473129 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		17B581C6221E443500473129 /* AnimalMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMock.swift; sourceTree = "<group>"; };
+		17B581C8221E449300473129 /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		17B581CC221E49B300473129 /* AnimalDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewTests.swift; sourceTree = "<group>"; };
+		17B581CE221E49EC00473129 /* AnimalDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailPresenterTests.swift; sourceTree = "<group>"; };
+		17B581D0221E4A0E00473129 /* AnimalDetailInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailInteractorMock.swift; sourceTree = "<group>"; };
+		17B581D2221E4A3000473129 /* AnimalDetailRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailRouterMock.swift; sourceTree = "<group>"; };
+		17B581D4221E4A4A00473129 /* AnimalListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewTests.swift; sourceTree = "<group>"; };
+		17B581D6221E4A5D00473129 /* AnimalListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListPresenterTests.swift; sourceTree = "<group>"; };
+		17B581D8221E4A7100473129 /* AnimalListInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListInteractorMock.swift; sourceTree = "<group>"; };
+		17B581DA221E4A8B00473129 /* AnimalListRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListRouterMock.swift; sourceTree = "<group>"; };
+		17B581DC221E5B7400473129 /* AnimalListViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewMock.swift; sourceTree = "<group>"; };
+		17B581DE221E604400473129 /* AnimalDetailViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewMock.swift; sourceTree = "<group>"; };
 		17D8AB95221B9F7900BE0A17 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 		17D8AB96221B9F7900BE0A17 /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpg; sourceTree = "<group>"; };
 		17D8AB97221B9F7900BE0A17 /* chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken.jpg; sourceTree = "<group>"; };
@@ -231,6 +257,7 @@
 		17B0FE83221674E7004B645A = {
 			isa = PBXGroup;
 			children = (
+				17B581C2221E42B700473129 /* .gitignore */,
 				17B0FED5221675A0004B645A /* Default-568h@2x.png */,
 				17B0FE8E221674E7004B645A /* VIPERSwift */,
 				17B0FEA3221674E8004B645A /* VIPERSwiftTests */,
@@ -280,8 +307,11 @@
 		17B0FEA3221674E8004B645A /* VIPERSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				17B581C5221E441F00473129 /* Entity */,
+				17B581C4221E441E00473129 /* Screens */,
 				17B0FEA4221674E8004B645A /* VIPERSwiftTests.swift */,
 				17B0FEA6221674E8004B645A /* Info.plist */,
+				17B581C8221E449300473129 /* Mockable.swift */,
 			);
 			path = VIPERSwiftTests;
 			sourceTree = "<group>";
@@ -567,6 +597,47 @@
 			path = Repositories;
 			sourceTree = "<group>";
 		};
+		17B581C4221E441E00473129 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				17B581CA221E484A00473129 /* AnimalList */,
+				17B581CB221E484A00473129 /* AnimalDetail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		17B581C5221E441F00473129 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				17B581C6221E443500473129 /* AnimalMock.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		17B581CA221E484A00473129 /* AnimalList */ = {
+			isa = PBXGroup;
+			children = (
+				17B581D4221E4A4A00473129 /* AnimalListViewTests.swift */,
+				17B581DC221E5B7400473129 /* AnimalListViewMock.swift */,
+				17B581D8221E4A7100473129 /* AnimalListInteractorMock.swift */,
+				17B581D6221E4A5D00473129 /* AnimalListPresenterTests.swift */,
+				17B581DA221E4A8B00473129 /* AnimalListRouterMock.swift */,
+			);
+			path = AnimalList;
+			sourceTree = "<group>";
+		};
+		17B581CB221E484A00473129 /* AnimalDetail */ = {
+			isa = PBXGroup;
+			children = (
+				17B581CC221E49B300473129 /* AnimalDetailViewTests.swift */,
+				17B581DE221E604400473129 /* AnimalDetailViewMock.swift */,
+				17B581D0221E4A0E00473129 /* AnimalDetailInteractorMock.swift */,
+				17B581CE221E49EC00473129 /* AnimalDetailPresenterTests.swift */,
+				17B581D2221E4A3000473129 /* AnimalDetailRouterMock.swift */,
+			);
+			path = AnimalDetail;
+			sourceTree = "<group>";
+		};
 		17D8AB94221B9F7900BE0A17 /* Zodiacs */ = {
 			isa = PBXGroup;
 			children = (
@@ -722,6 +793,7 @@
 				17D8ABA4221B9F7A00BE0A17 /* dragon.jpg in Resources */,
 				17B0FF0622167C1F004B645A /* Animals.plist in Resources */,
 				17B0FE9A221674E8004B645A /* LaunchScreen.storyboard in Resources */,
+				17B581C3221E42B700473129 /* .gitignore in Resources */,
 				17D8ABB6221BBDEE00BE0A17 /* background_list.png in Resources */,
 				1783326A221ABF9100E153A1 /* AnimalListView.xib in Resources */,
 				17D8ABA8221B9F7A00BE0A17 /* buffalo.jpg in Resources */,
@@ -890,7 +962,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B581D9221E4A7100473129 /* AnimalListInteractorMock.swift in Sources */,
+				17B581D5221E4A4A00473129 /* AnimalListViewTests.swift in Sources */,
+				17B581DF221E604400473129 /* AnimalDetailViewMock.swift in Sources */,
 				17B0FEA5221674E8004B645A /* VIPERSwiftTests.swift in Sources */,
+				17B581D3221E4A3100473129 /* AnimalDetailRouterMock.swift in Sources */,
+				17B581CD221E49B300473129 /* AnimalDetailViewTests.swift in Sources */,
+				17B581C9221E449300473129 /* Mockable.swift in Sources */,
+				17B581DD221E5B7400473129 /* AnimalListViewMock.swift in Sources */,
+				17B581D7221E4A5E00473129 /* AnimalListPresenterTests.swift in Sources */,
+				17B581C7221E443500473129 /* AnimalMock.swift in Sources */,
+				17B581DB221E4A8B00473129 /* AnimalListRouterMock.swift in Sources */,
+				17B581D1221E4A0E00473129 /* AnimalDetailInteractorMock.swift in Sources */,
+				17B581CF221E49EC00473129 /* AnimalDetailPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

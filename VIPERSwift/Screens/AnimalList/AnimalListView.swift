@@ -19,7 +19,7 @@ class AnimalListView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Always is fistly command line
-        AnimalListRouter.createAnimalListPresenter(self)
+        createAnimalListPresenter(self)
         
         self.title = ScreenName.animals
         configTableView()
@@ -59,6 +59,15 @@ class AnimalListView: UIViewController {
 
 // MARK: - AnimalListViewType
 extension AnimalListView: AnimalListViewType {
+    func createAnimalListPresenter(_ referenceView: AnimalListView) {
+        let presenter = AnimalListPresenter()
+        referenceView.presenter = presenter
+        referenceView.presenter?.router = AnimalListRouter()
+        referenceView.presenter?.view = referenceView
+        referenceView.presenter?.interactor = AnimalListInteractor()
+        referenceView.presenter?.interactor?.presenter = presenter
+        referenceView.presenter?.interactor?.repository = AnimalListRepository()
+    }
     
     func showAnimalList(_ animals: [Animal]) {
         self.animals = animals

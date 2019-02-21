@@ -20,7 +20,7 @@ class AnimalDetailView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        AnimalDetailRouter.createAnimalDetailPresenter(self)
+        createAnimalDetailPresenter(self)
         
         bigImageView.layer.cornerRadius = bigImageView.frame.width / 2.0
         bigImageView.clipsToBounds = true
@@ -43,6 +43,16 @@ class AnimalDetailView: UIViewController {
 }
 
 extension AnimalDetailView: AnimalDetailViewType {
+    func createAnimalDetailPresenter(_ referenceView: AnimalDetailView) {
+        let presenter = AnimalDetailPresenter()
+        referenceView.presenter = presenter
+        referenceView.presenter?.router = AnimalDetailRouter()
+        referenceView.presenter?.view = referenceView
+        referenceView.presenter?.interactor = AnimalDetailInteractor()
+        referenceView.presenter?.interactor.presenter = presenter
+        referenceView.presenter?.interactor.repository = AnimalDetailRepository()
+    }
+    
     func showAnimalDetail() {
         guard let animal = animal else {
             return

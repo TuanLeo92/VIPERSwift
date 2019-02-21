@@ -9,9 +9,7 @@
 import UIKit
 
 protocol AnimalListRouterType: Router {
-    
-    static func createAnimalListPresenter(_ referenceView: AnimalListView)
-    
+
     func pushToAnimalDetail(with animal: Animal, from navigation: UINavigationController?)
     
 }

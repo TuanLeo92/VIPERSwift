@@ -10,6 +10,8 @@ import Foundation
 
 protocol AnimalDetailViewType: class {
     
+    func createAnimalDetailPresenter(_ referenceView: AnimalDetailView)
+    
     func showAnimalDetail()
     
 }
