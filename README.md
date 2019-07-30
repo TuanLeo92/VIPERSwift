@@ -17,7 +17,7 @@ R - Router: Contains logic for routing of screens.
 
 All of these components communicate with each other through protocols.
 
-![VIPER Flow](https://screenshot.net/rqm01fv)
+![VIPER Flow](https://i.screenshot.net/rqm01fv)
 
 # Why choose VIPER?
 . To make the structure more modular.
