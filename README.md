@@ -9,11 +9,13 @@ Cocoas Pod: 1.7.5
 # Design Pattern or Architechture
 We use VIPER Design Pattern for this project.
 
-V - View: Responsibility of view is to send user interactions to presenter and show whatever the presenter asks it to.
-I - Interactor: It has the business logic for the app specified by a use case. 
-P - Presenter: Contains the view logic for preparing content for display and for reacting to user interactions.
-E - Entity: The basic model for objects used by interaction.
-R - Router: Contains logic for routing of screens.
+V - View: Responsibility of view is to send user interactions to presenter and show whatever the presenter asks it to.\n
+I - Interactor: It has the business logic for the app specified by a use case.\n
+P - Presenter: Contains the view logic for preparing content for display and for reacting to user interactions.\n
+E - Entity: The basic model for objects used by interaction.\n
+R - Router: Contains logic for routing of screens.\n
+
+Extra: Repository: Data transmission local and remote.
 
 All of these components communicate with each other through protocols.
 
