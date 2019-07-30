@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        let animalsView = AnimalListView(nibName: "AnimalListView", bundle: nil)
+        let animalsView = AnimalListScreenView.loadFromStoryboard()
         let rootNavi = UINavigationController(rootViewController: animalsView)
         
         window?.rootViewController = rootNavi

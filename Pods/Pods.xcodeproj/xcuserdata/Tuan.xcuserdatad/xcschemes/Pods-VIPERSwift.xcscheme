@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "477589F04AE1E2250C4B45573F4D4947"
+               BlueprintIdentifier = "F08D5139F605C7629F007B3634BA1DAB"
                BuildableName = "Pods_VIPERSwift.framework"
                BlueprintName = "Pods-VIPERSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "477589F04AE1E2250C4B45573F4D4947"
+            BlueprintIdentifier = "F08D5139F605C7629F007B3634BA1DAB"
             BuildableName = "Pods_VIPERSwift.framework"
             BlueprintName = "Pods-VIPERSwift"
             ReferencedContainer = "container:Pods.xcodeproj">

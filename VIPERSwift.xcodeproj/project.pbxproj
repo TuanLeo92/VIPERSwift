@@ -3,22 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17833261221ABB2600E153A1 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17833260221ABB2600E153A1 /* NSObjectExtension.swift */; };
-		17833263221ABC1A00E153A1 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17833262221ABC1A00E153A1 /* UITableViewExtension.swift */; };
+		17833261221ABB2600E153A1 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17833260221ABB2600E153A1 /* NSObject+Extensions.swift */; };
+		17833263221ABC1A00E153A1 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17833262221ABC1A00E153A1 /* UITableView+Extensions.swift */; };
 		17833267221ABC6E00E153A1 /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17833265221ABC6E00E153A1 /* AnimalCell.swift */; };
 		17833268221ABC6E00E153A1 /* AnimalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17833266221ABC6E00E153A1 /* AnimalCell.xib */; };
-		1783326A221ABF9100E153A1 /* AnimalListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17833269221ABF9100E153A1 /* AnimalListView.xib */; };
 		1783326C221AC02400E153A1 /* ScreenNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783326B221AC02400E153A1 /* ScreenNames.swift */; };
 		17B0FE92221674E7004B645A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FE91221674E7004B645A /* ViewController.swift */; };
 		17B0FE95221674E7004B645A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B0FE93221674E7004B645A /* Main.storyboard */; };
 		17B0FE97221674E8004B645A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B0FE96221674E8004B645A /* Assets.xcassets */; };
 		17B0FE9A221674E8004B645A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B0FE98221674E8004B645A /* LaunchScreen.storyboard */; };
 		17B0FEA5221674E8004B645A /* VIPERSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEA4221674E8004B645A /* VIPERSwiftTests.swift */; };
-		17B0FEB0221674E8004B645A /* VIPERSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEAF221674E8004B645A /* VIPERSwiftUITests.swift */; };
 		17B0FED32216754E004B645A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FECE2216754D004B645A /* AppDelegate.swift */; };
 		17B0FED6221675A0004B645A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B0FED5221675A0004B645A /* Default-568h@2x.png */; };
 		17B0FED822167772004B645A /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FED722167772004B645A /* Entity.swift */; };
@@ -26,29 +24,20 @@
 		17B0FEDC2216778D004B645A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEDB2216778D004B645A /* View.swift */; };
 		17B0FEDE22167798004B645A /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEDD22167798004B645A /* Interactor.swift */; };
 		17B0FEE0221677A5004B645A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEDF221677A5004B645A /* Router.swift */; };
-		17B0FEE422167942004B645A /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEE322167942004B645A /* AnimalDetailView.swift */; };
-		17B0FEE622167951004B645A /* AnimalDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEE522167951004B645A /* AnimalDetailInteractor.swift */; };
-		17B0FEE82216795D004B645A /* AnimalDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEE72216795D004B645A /* AnimalDetailPresenter.swift */; };
-		17B0FEEA2216796D004B645A /* AnimalDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEE92216796D004B645A /* AnimalDetailRouter.swift */; };
-		17B0FEEC2216799F004B645A /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEEB2216799F004B645A /* AnimalListView.swift */; };
+		17B0FEE422167942004B645A /* AnimalDetailsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEE322167942004B645A /* AnimalDetailsScreenView.swift */; };
+		17B0FEE622167951004B645A /* AnimalDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEE522167951004B645A /* AnimalDetailsInteractor.swift */; };
+		17B0FEE82216795D004B645A /* AnimalDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEE72216795D004B645A /* AnimalDetailsPresenter.swift */; };
+		17B0FEEA2216796D004B645A /* AnimalDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEE92216796D004B645A /* AnimalDetailsRouter.swift */; };
+		17B0FEEC2216799F004B645A /* AnimalListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEEB2216799F004B645A /* AnimalListScreenView.swift */; };
 		17B0FEEE221679AE004B645A /* AnimalListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEED221679AE004B645A /* AnimalListInteractor.swift */; };
 		17B0FEF0221679BE004B645A /* AnimalListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEEF221679BE004B645A /* AnimalListPresenter.swift */; };
 		17B0FEF2221679CD004B645A /* AnimalListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEF1221679CD004B645A /* AnimalListRouter.swift */; };
-		17B0FEF422167A6A004B645A /* AnimalListInteractorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEF322167A6A004B645A /* AnimalListInteractorType.swift */; };
-		17B0FEF622167A7F004B645A /* AnimalDetailInteractorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEF522167A7F004B645A /* AnimalDetailInteractorType.swift */; };
-		17B0FEF822167AB1004B645A /* AnimalListPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEF722167AB1004B645A /* AnimalListPresenterType.swift */; };
-		17B0FEFA22167AC6004B645A /* AnimalDetailPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEF922167AC6004B645A /* AnimalDetailPresenterType.swift */; };
-		17B0FEFC22167AE3004B645A /* AnimalDetailRouterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEFB22167AE3004B645A /* AnimalDetailRouterType.swift */; };
-		17B0FEFE22167AF0004B645A /* AnimalListRouterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEFD22167AF0004B645A /* AnimalListRouterType.swift */; };
 		17B0FF0022167B6F004B645A /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEFF22167B6F004B645A /* Animal.swift */; };
 		17B0FF0622167C1F004B645A /* Animals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17B0FF0522167C1F004B645A /* Animals.plist */; };
-		17B0FF092216A5DE004B645A /* AnimalListViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FF082216A5DE004B645A /* AnimalListViewType.swift */; };
-		17B0FF0B2216A5F4004B645A /* AnimalDetailViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FF0A2216A5F4004B645A /* AnimalDetailViewType.swift */; };
 		17B1231C221A4AA000B3E94F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B1231B221A4AA000B3E94F /* Repository.swift */; };
 		17B1231E221A4ADE00B3E94F /* APIBase_Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B1231D221A4ADE00B3E94F /* APIBase_Input.swift */; };
 		17B12320221A4AE900B3E94F /* APIBase_Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B1231F221A4AE900B3E94F /* APIBase_Output.swift */; };
-		17B12322221A4B2500B3E94F /* APIBase_Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B12321221A4B2500B3E94F /* APIBase_Request.swift */; };
-		17B12324221A4B4500B3E94F /* APIBase_Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B12323221A4B4500B3E94F /* APIBase_Upload.swift */; };
+		17B12322221A4B2500B3E94F /* APIBase_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B12321221A4B2500B3E94F /* APIBase_Service.swift */; };
 		17B12326221A53B900B3E94F /* APIBase_UploadInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B12325221A53B900B3E94F /* APIBase_UploadInput.swift */; };
 		17B12328221A53C900B3E94F /* APIBase_UploadOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B12327221A53C900B3E94F /* APIBase_UploadOutput.swift */; };
 		17B1232B221A558600B3E94F /* APIResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B1232A221A558600B3E94F /* APIResponseError.swift */; };
@@ -61,16 +50,27 @@
 		17B581C3221E42B700473129 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 17B581C2221E42B700473129 /* .gitignore */; };
 		17B581C7221E443500473129 /* AnimalMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581C6221E443500473129 /* AnimalMock.swift */; };
 		17B581C9221E449300473129 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581C8221E449300473129 /* Mockable.swift */; };
-		17B581CD221E49B300473129 /* AnimalDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581CC221E49B300473129 /* AnimalDetailViewTests.swift */; };
-		17B581CF221E49EC00473129 /* AnimalDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581CE221E49EC00473129 /* AnimalDetailPresenterTests.swift */; };
-		17B581D1221E4A0E00473129 /* AnimalDetailInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D0221E4A0E00473129 /* AnimalDetailInteractorMock.swift */; };
-		17B581D3221E4A3100473129 /* AnimalDetailRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D2221E4A3000473129 /* AnimalDetailRouterMock.swift */; };
-		17B581D5221E4A4A00473129 /* AnimalListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D4221E4A4A00473129 /* AnimalListViewTests.swift */; };
+		17B581CD221E49B300473129 /* AnimalDetailsScreenViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581CC221E49B300473129 /* AnimalDetailsScreenViewTests.swift */; };
+		17B581CF221E49EC00473129 /* AnimalDetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581CE221E49EC00473129 /* AnimalDetailsPresenterTests.swift */; };
+		17B581D1221E4A0E00473129 /* AnimalDetailsInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D0221E4A0E00473129 /* AnimalDetailsInteractorMock.swift */; };
+		17B581D3221E4A3100473129 /* AnimalDetailsRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D2221E4A3000473129 /* AnimalDetailsRouterMock.swift */; };
+		17B581D5221E4A4A00473129 /* AnimalListScreenViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D4221E4A4A00473129 /* AnimalListScreenViewTests.swift */; };
 		17B581D7221E4A5E00473129 /* AnimalListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D6221E4A5D00473129 /* AnimalListPresenterTests.swift */; };
 		17B581D9221E4A7100473129 /* AnimalListInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581D8221E4A7100473129 /* AnimalListInteractorMock.swift */; };
 		17B581DB221E4A8B00473129 /* AnimalListRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581DA221E4A8B00473129 /* AnimalListRouterMock.swift */; };
 		17B581DD221E5B7400473129 /* AnimalListViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581DC221E5B7400473129 /* AnimalListViewMock.swift */; };
-		17B581DF221E604400473129 /* AnimalDetailViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581DE221E604400473129 /* AnimalDetailViewMock.swift */; };
+		17B581DF221E604400473129 /* AnimalDetailsViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B581DE221E604400473129 /* AnimalDetailsViewMock.swift */; };
+		17D4307522EFDE8F006A81E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17D4307422EFDE8F006A81E7 /* Localizable.strings */; };
+		17D4307722EFE29C006A81E7 /* AnimalListModuleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4307622EFE29C006A81E7 /* AnimalListModuleTypes.swift */; };
+		17D4307922EFE7D6006A81E7 /* AnimalListScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D4307822EFE7D6006A81E7 /* AnimalListScreenView.storyboard */; };
+		17D4307C22EFE84E006A81E7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4307B22EFE84E006A81E7 /* BaseViewController.swift */; };
+		17D4307F22EFF2D1006A81E7 /* AppSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4307E22EFF2D1006A81E7 /* AppSessionManager.swift */; };
+		17D4308122EFF334006A81E7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4308022EFF334006A81E7 /* User.swift */; };
+		17D4308322EFF9AE006A81E7 /* AnimalDetailsModuleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4308222EFF9AE006A81E7 /* AnimalDetailsModuleTypes.swift */; };
+		17D4308522EFFC47006A81E7 /* AnimalDetailsScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D4308422EFFC47006A81E7 /* AnimalDetailsScreenView.storyboard */; };
+		17D4308722F00559006A81E7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4308622F00559006A81E7 /* UIView+Extensions.swift */; };
+		17D4308822F02ACD006A81E7 /* VIPERSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B0FEAF221674E8004B645A /* VIPERSwiftUITests.swift */; };
+		17D4308C22F02E41006A81E7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D4308B22F02E41006A81E7 /* Alamofire.framework */; };
 		17D8ABA1221B9F7A00BE0A17 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8AB95221B9F7900BE0A17 /* dog.jpg */; };
 		17D8ABA2221B9F7A00BE0A17 /* horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8AB96221B9F7900BE0A17 /* horse.jpg */; };
 		17D8ABA3221B9F7A00BE0A17 /* chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8AB97221B9F7900BE0A17 /* chicken.jpg */; };
@@ -83,13 +83,12 @@
 		17D8ABAA221B9F7A00BE0A17 /* pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8AB9E221B9F7A00BE0A17 /* pig.jpg */; };
 		17D8ABAB221B9F7A00BE0A17 /* snake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8AB9F221B9F7A00BE0A17 /* snake.jpg */; };
 		17D8ABAC221B9F7A00BE0A17 /* goat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D8ABA0221B9F7A00BE0A17 /* goat.jpg */; };
-		17D8ABB0221BA0AB00BE0A17 /* AnimalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D8ABAF221BA0AB00BE0A17 /* AnimalDetailView.xib */; };
-		17D8ABB2221BA66700BE0A17 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8ABB1221BA66700BE0A17 /* UIViewControllerExtension.swift */; };
+		17D8ABB2221BA66700BE0A17 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8ABB1221BA66700BE0A17 /* UIViewController+Extensions.swift */; };
 		17D8ABB4221BB27700BE0A17 /* background_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D8ABB3221BB27700BE0A17 /* background_detail.png */; };
 		17D8ABB6221BBDEE00BE0A17 /* background_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D8ABB5221BBDEE00BE0A17 /* background_list.png */; };
-		53CCFA295A25F0A80D29A9D2 /* Pods_VIPERSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC15EFCE304229F59E5F5866 /* Pods_VIPERSwiftTests.framework */; };
-		993F4579FA6135BB648AF896 /* Pods_VIPERSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13605BC44D9D4EC675856F2F /* Pods_VIPERSwiftUITests.framework */; };
-		B75E5385DEE08BBCAE0BAA6E /* Pods_VIPERSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B46679A93503813A0D4AE80 /* Pods_VIPERSwift.framework */; };
+		515916ECEA7C52032E3D180C /* Pods_VIPERSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9878B2174E70874C51D3681 /* Pods_VIPERSwiftTests.framework */; };
+		A4C856CB6630BF9A47FE6508 /* Pods_VIPERSwift_VIPERSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BDA26DF2D675939A3A407C /* Pods_VIPERSwift_VIPERSwiftUITests.framework */; };
+		C20DBA205326EEB95B45A94F /* Pods_VIPERSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BEBAAFC972FE3371810F9D /* Pods_VIPERSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,12 +109,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13605BC44D9D4EC675856F2F /* Pods_VIPERSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17833260221ABB2600E153A1 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
-		17833262221ABC1A00E153A1 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		0E56888D24B88D181C0E7793 /* Pods-VIPERSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-VIPERSwiftTests/Pods-VIPERSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17833260221ABB2600E153A1 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		17833262221ABC1A00E153A1 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		17833265221ABC6E00E153A1 /* AnimalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
 		17833266221ABC6E00E153A1 /* AnimalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalCell.xib; sourceTree = "<group>"; };
-		17833269221ABF9100E153A1 /* AnimalListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalListView.xib; sourceTree = "<group>"; };
 		1783326B221AC02400E153A1 /* ScreenNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenNames.swift; sourceTree = "<group>"; };
 		17B0FE8C221674E7004B645A /* VIPERSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B0FE91221674E7004B645A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,29 +134,20 @@
 		17B0FEDB2216778D004B645A /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		17B0FEDD22167798004B645A /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		17B0FEDF221677A5004B645A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		17B0FEE322167942004B645A /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
-		17B0FEE522167951004B645A /* AnimalDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailInteractor.swift; sourceTree = "<group>"; };
-		17B0FEE72216795D004B645A /* AnimalDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailPresenter.swift; sourceTree = "<group>"; };
-		17B0FEE92216796D004B645A /* AnimalDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailRouter.swift; sourceTree = "<group>"; };
-		17B0FEEB2216799F004B645A /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		17B0FEE322167942004B645A /* AnimalDetailsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsScreenView.swift; sourceTree = "<group>"; };
+		17B0FEE522167951004B645A /* AnimalDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsInteractor.swift; sourceTree = "<group>"; };
+		17B0FEE72216795D004B645A /* AnimalDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsPresenter.swift; sourceTree = "<group>"; };
+		17B0FEE92216796D004B645A /* AnimalDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsRouter.swift; sourceTree = "<group>"; };
+		17B0FEEB2216799F004B645A /* AnimalListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListScreenView.swift; sourceTree = "<group>"; };
 		17B0FEED221679AE004B645A /* AnimalListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListInteractor.swift; sourceTree = "<group>"; };
 		17B0FEEF221679BE004B645A /* AnimalListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListPresenter.swift; sourceTree = "<group>"; };
 		17B0FEF1221679CD004B645A /* AnimalListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListRouter.swift; sourceTree = "<group>"; };
-		17B0FEF322167A6A004B645A /* AnimalListInteractorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListInteractorType.swift; sourceTree = "<group>"; };
-		17B0FEF522167A7F004B645A /* AnimalDetailInteractorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailInteractorType.swift; sourceTree = "<group>"; };
-		17B0FEF722167AB1004B645A /* AnimalListPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListPresenterType.swift; sourceTree = "<group>"; };
-		17B0FEF922167AC6004B645A /* AnimalDetailPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailPresenterType.swift; sourceTree = "<group>"; };
-		17B0FEFB22167AE3004B645A /* AnimalDetailRouterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailRouterType.swift; sourceTree = "<group>"; };
-		17B0FEFD22167AF0004B645A /* AnimalListRouterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListRouterType.swift; sourceTree = "<group>"; };
 		17B0FEFF22167B6F004B645A /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		17B0FF0522167C1F004B645A /* Animals.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Animals.plist; sourceTree = "<group>"; };
-		17B0FF082216A5DE004B645A /* AnimalListViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewType.swift; sourceTree = "<group>"; };
-		17B0FF0A2216A5F4004B645A /* AnimalDetailViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewType.swift; sourceTree = "<group>"; };
 		17B1231B221A4AA000B3E94F /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		17B1231D221A4ADE00B3E94F /* APIBase_Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBase_Input.swift; sourceTree = "<group>"; };
 		17B1231F221A4AE900B3E94F /* APIBase_Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBase_Output.swift; sourceTree = "<group>"; };
-		17B12321221A4B2500B3E94F /* APIBase_Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBase_Request.swift; sourceTree = "<group>"; };
-		17B12323221A4B4500B3E94F /* APIBase_Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBase_Upload.swift; sourceTree = "<group>"; };
+		17B12321221A4B2500B3E94F /* APIBase_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBase_Service.swift; sourceTree = "<group>"; };
 		17B12325221A53B900B3E94F /* APIBase_UploadInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBase_UploadInput.swift; sourceTree = "<group>"; };
 		17B12327221A53C900B3E94F /* APIBase_UploadOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBase_UploadOutput.swift; sourceTree = "<group>"; };
 		17B1232A221A558600B3E94F /* APIResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseError.swift; sourceTree = "<group>"; };
@@ -171,16 +160,27 @@
 		17B581C2221E42B700473129 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		17B581C6221E443500473129 /* AnimalMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMock.swift; sourceTree = "<group>"; };
 		17B581C8221E449300473129 /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
-		17B581CC221E49B300473129 /* AnimalDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewTests.swift; sourceTree = "<group>"; };
-		17B581CE221E49EC00473129 /* AnimalDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailPresenterTests.swift; sourceTree = "<group>"; };
-		17B581D0221E4A0E00473129 /* AnimalDetailInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailInteractorMock.swift; sourceTree = "<group>"; };
-		17B581D2221E4A3000473129 /* AnimalDetailRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailRouterMock.swift; sourceTree = "<group>"; };
-		17B581D4221E4A4A00473129 /* AnimalListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewTests.swift; sourceTree = "<group>"; };
+		17B581CC221E49B300473129 /* AnimalDetailsScreenViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsScreenViewTests.swift; sourceTree = "<group>"; };
+		17B581CE221E49EC00473129 /* AnimalDetailsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsPresenterTests.swift; sourceTree = "<group>"; };
+		17B581D0221E4A0E00473129 /* AnimalDetailsInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsInteractorMock.swift; sourceTree = "<group>"; };
+		17B581D2221E4A3000473129 /* AnimalDetailsRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsRouterMock.swift; sourceTree = "<group>"; };
+		17B581D4221E4A4A00473129 /* AnimalListScreenViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListScreenViewTests.swift; sourceTree = "<group>"; };
 		17B581D6221E4A5D00473129 /* AnimalListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListPresenterTests.swift; sourceTree = "<group>"; };
 		17B581D8221E4A7100473129 /* AnimalListInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListInteractorMock.swift; sourceTree = "<group>"; };
 		17B581DA221E4A8B00473129 /* AnimalListRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListRouterMock.swift; sourceTree = "<group>"; };
 		17B581DC221E5B7400473129 /* AnimalListViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewMock.swift; sourceTree = "<group>"; };
-		17B581DE221E604400473129 /* AnimalDetailViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewMock.swift; sourceTree = "<group>"; };
+		17B581DE221E604400473129 /* AnimalDetailsViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsViewMock.swift; sourceTree = "<group>"; };
+		17D4307422EFDE8F006A81E7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		17D4307622EFE29C006A81E7 /* AnimalListModuleTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListModuleTypes.swift; sourceTree = "<group>"; };
+		17D4307822EFE7D6006A81E7 /* AnimalListScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnimalListScreenView.storyboard; sourceTree = "<group>"; };
+		17D4307B22EFE84E006A81E7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		17D4307E22EFF2D1006A81E7 /* AppSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSessionManager.swift; sourceTree = "<group>"; };
+		17D4308022EFF334006A81E7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		17D4308222EFF9AE006A81E7 /* AnimalDetailsModuleTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailsModuleTypes.swift; sourceTree = "<group>"; };
+		17D4308422EFFC47006A81E7 /* AnimalDetailsScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnimalDetailsScreenView.storyboard; sourceTree = "<group>"; };
+		17D4308622F00559006A81E7 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		17D4308922F02E35006A81E7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D4308B22F02E41006A81E7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D8AB95221B9F7900BE0A17 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 		17D8AB96221B9F7900BE0A17 /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpg; sourceTree = "<group>"; };
 		17D8AB97221B9F7900BE0A17 /* chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken.jpg; sourceTree = "<group>"; };
@@ -193,18 +193,17 @@
 		17D8AB9E221B9F7A00BE0A17 /* pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pig.jpg; sourceTree = "<group>"; };
 		17D8AB9F221B9F7A00BE0A17 /* snake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snake.jpg; sourceTree = "<group>"; };
 		17D8ABA0221B9F7A00BE0A17 /* goat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goat.jpg; sourceTree = "<group>"; };
-		17D8ABAF221BA0AB00BE0A17 /* AnimalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalDetailView.xib; sourceTree = "<group>"; };
-		17D8ABB1221BA66700BE0A17 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		17D8ABB1221BA66700BE0A17 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		17D8ABB3221BB27700BE0A17 /* background_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_detail.png; sourceTree = "<group>"; };
 		17D8ABB5221BBDEE00BE0A17 /* background_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_list.png; sourceTree = "<group>"; };
-		4AC515A10F549FA8BE430642 /* Pods-VIPERSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift.release.xcconfig"; sourceTree = "<group>"; };
-		4B46679A93503813A0D4AE80 /* Pods_VIPERSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F9195080C9FB4DD091FB05F /* Pods-VIPERSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIPERSwiftTests/Pods-VIPERSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		6FCB12EF02564FC99161E16D /* Pods-VIPERSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIPERSwiftTests/Pods-VIPERSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8AF0952D9C20491905618F97 /* Pods-VIPERSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIPERSwiftUITests/Pods-VIPERSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		90D4DBC5CD6B66084BC6EA27 /* Pods-VIPERSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIPERSwiftUITests/Pods-VIPERSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		90E8E579D3C7CE4FCA300C4D /* Pods-VIPERSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		EC15EFCE304229F59E5F5866 /* Pods_VIPERSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184729DA2D8748136CD33C3D /* Pods-VIPERSwift-VIPERSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwift-VIPERSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-VIPERSwift-VIPERSwiftUITests/Pods-VIPERSwift-VIPERSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35BDA26DF2D675939A3A407C /* Pods_VIPERSwift_VIPERSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERSwift_VIPERSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCFCD2CA4962A0FE95CB051 /* Pods-VIPERSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwift.release.xcconfig"; path = "Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift.release.xcconfig"; sourceTree = "<group>"; };
+		53BEBAAFC972FE3371810F9D /* Pods_VIPERSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9878B2174E70874C51D3681 /* Pods_VIPERSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AEE18F6E7786BA6ECED1DE /* Pods-VIPERSwift-VIPERSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwift-VIPERSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-VIPERSwift-VIPERSwiftUITests/Pods-VIPERSwift-VIPERSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED3D265979886C2704F42D63 /* Pods-VIPERSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-VIPERSwiftTests/Pods-VIPERSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE42C51E897CD1069FABC5F5 /* Pods-VIPERSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERSwift.debug.xcconfig"; path = "Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75E5385DEE08BBCAE0BAA6E /* Pods_VIPERSwift.framework in Frameworks */,
+				C20DBA205326EEB95B45A94F /* Pods_VIPERSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +219,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53CCFA295A25F0A80D29A9D2 /* Pods_VIPERSwiftTests.framework in Frameworks */,
+				515916ECEA7C52032E3D180C /* Pods_VIPERSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +227,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993F4579FA6135BB648AF896 /* Pods_VIPERSwiftUITests.framework in Frameworks */,
+				17D4308C22F02E41006A81E7 /* Alamofire.framework in Frameworks */,
+				A4C856CB6630BF9A47FE6508 /* Pods_VIPERSwift_VIPERSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +238,10 @@
 		1783325F221ABB0300E153A1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				17833260221ABB2600E153A1 /* NSObjectExtension.swift */,
-				17833262221ABC1A00E153A1 /* UITableViewExtension.swift */,
-				17D8ABB1221BA66700BE0A17 /* UIViewControllerExtension.swift */,
+				17833260221ABB2600E153A1 /* NSObject+Extensions.swift */,
+				17833262221ABC1A00E153A1 /* UITableView+Extensions.swift */,
+				17D8ABB1221BA66700BE0A17 /* UIViewController+Extensions.swift */,
+				17D4308622F00559006A81E7 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -263,8 +264,8 @@
 				17B0FEA3221674E8004B645A /* VIPERSwiftTests */,
 				17B0FEAE221674E8004B645A /* VIPERSwiftUITests */,
 				17B0FE8D221674E7004B645A /* Products */,
-				DE6D68F682A96CC8EDE29551 /* Pods */,
-				DD426B7C288AE972A1C6F9F0 /* Frameworks */,
+				3A58C3696BDD9A4180795E93 /* Pods */,
+				3300E65E6A9FF55E350C583C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -281,18 +282,15 @@
 		17B0FE8E221674E7004B645A /* VIPERSwift */ = {
 			isa = PBXGroup;
 			children = (
+				17D4307A22EFE838006A81E7 /* AppBase */,
 				17B0FED02216754D004B645A /* AppConfiguration */,
 				17B0FED22216754E004B645A /* AppDefines */,
 				17B0FECD2216754D004B645A /* AppDelegate */,
 				17B0FEC02216754D004B645A /* Architecture */,
 				17B0FECF2216754D004B645A /* Common */,
-				17B0FEBF2216754D004B645A /* Screens */,
-				17B0FF072216A5C5004B645A /* ViewTypes */,
-				17B0FECC2216754D004B645A /* InteractorTypes */,
-				17B0FEBE2216754D004B645A /* PresenterTypes */,
+				17D4307D22EFF2BA006A81E7 /* Managers */,
+				17B0FEBF2216754D004B645A /* Modules(Screens) */,
 				17B0FEC62216754D004B645A /* Entities */,
-				17B0FECB2216754D004B645A /* RouterTypes */,
-				17B0FEBD2216754D004B645A /* Managers */,
 				1783325F221ABB0300E153A1 /* Extensions */,
 				17B0FEC82216754D004B645A /* Services */,
 				17B0FEC72216754D004B645A /* Resources */,
@@ -325,29 +323,13 @@
 			path = VIPERSwiftUITests;
 			sourceTree = "<group>";
 		};
-		17B0FEBD2216754D004B645A /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		17B0FEBE2216754D004B645A /* PresenterTypes */ = {
-			isa = PBXGroup;
-			children = (
-				17B0FEF722167AB1004B645A /* AnimalListPresenterType.swift */,
-				17B0FEF922167AC6004B645A /* AnimalDetailPresenterType.swift */,
-			);
-			path = PresenterTypes;
-			sourceTree = "<group>";
-		};
-		17B0FEBF2216754D004B645A /* Screens */ = {
+		17B0FEBF2216754D004B645A /* Modules(Screens) */ = {
 			isa = PBXGroup;
 			children = (
 				17B0FEE222167932004B645A /* AnimalList */,
-				17B0FEE122167932004B645A /* AnimalDetail */,
+				17B0FEE122167932004B645A /* AnimalDetails */,
 			);
-			path = Screens;
+			path = "Modules(Screens)";
 			sourceTree = "<group>";
 		};
 		17B0FEC02216754D004B645A /* Architecture */ = {
@@ -408,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				17B0FEFF22167B6F004B645A /* Animal.swift */,
+				17D4308022EFF334006A81E7 /* User.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -450,24 +433,6 @@
 			path = APIs;
 			sourceTree = "<group>";
 		};
-		17B0FECB2216754D004B645A /* RouterTypes */ = {
-			isa = PBXGroup;
-			children = (
-				17B0FEFD22167AF0004B645A /* AnimalListRouterType.swift */,
-				17B0FEFB22167AE3004B645A /* AnimalDetailRouterType.swift */,
-			);
-			path = RouterTypes;
-			sourceTree = "<group>";
-		};
-		17B0FECC2216754D004B645A /* InteractorTypes */ = {
-			isa = PBXGroup;
-			children = (
-				17B0FEF322167A6A004B645A /* AnimalListInteractorType.swift */,
-				17B0FEF522167A7F004B645A /* AnimalDetailInteractorType.swift */,
-			);
-			path = InteractorTypes;
-			sourceTree = "<group>";
-		};
 		17B0FECD2216754D004B645A /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -495,31 +460,34 @@
 			isa = PBXGroup;
 			children = (
 				1783326B221AC02400E153A1 /* ScreenNames.swift */,
+				17D4307422EFDE8F006A81E7 /* Localizable.strings */,
 			);
 			path = AppDefines;
 			sourceTree = "<group>";
 		};
-		17B0FEE122167932004B645A /* AnimalDetail */ = {
+		17B0FEE122167932004B645A /* AnimalDetails */ = {
 			isa = PBXGroup;
 			children = (
-				17B0FEE322167942004B645A /* AnimalDetailView.swift */,
-				17D8ABAF221BA0AB00BE0A17 /* AnimalDetailView.xib */,
-				17B0FEE522167951004B645A /* AnimalDetailInteractor.swift */,
-				17B0FEE72216795D004B645A /* AnimalDetailPresenter.swift */,
-				17B0FEE92216796D004B645A /* AnimalDetailRouter.swift */,
+				17B0FEE322167942004B645A /* AnimalDetailsScreenView.swift */,
+				17D4308422EFFC47006A81E7 /* AnimalDetailsScreenView.storyboard */,
+				17B0FEE522167951004B645A /* AnimalDetailsInteractor.swift */,
+				17B0FEE72216795D004B645A /* AnimalDetailsPresenter.swift */,
+				17B0FEE92216796D004B645A /* AnimalDetailsRouter.swift */,
+				17D4308222EFF9AE006A81E7 /* AnimalDetailsModuleTypes.swift */,
 			);
-			path = AnimalDetail;
+			path = AnimalDetails;
 			sourceTree = "<group>";
 		};
 		17B0FEE222167932004B645A /* AnimalList */ = {
 			isa = PBXGroup;
 			children = (
 				17833264221ABC5900E153A1 /* Cells */,
-				17B0FEEB2216799F004B645A /* AnimalListView.swift */,
-				17833269221ABF9100E153A1 /* AnimalListView.xib */,
+				17B0FEEB2216799F004B645A /* AnimalListScreenView.swift */,
+				17D4307822EFE7D6006A81E7 /* AnimalListScreenView.storyboard */,
 				17B0FEED221679AE004B645A /* AnimalListInteractor.swift */,
 				17B0FEEF221679BE004B645A /* AnimalListPresenter.swift */,
 				17B0FEF1221679CD004B645A /* AnimalListRouter.swift */,
+				17D4307622EFE29C006A81E7 /* AnimalListModuleTypes.swift */,
 			);
 			path = AnimalList;
 			sourceTree = "<group>";
@@ -556,15 +524,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		17B0FF072216A5C5004B645A /* ViewTypes */ = {
-			isa = PBXGroup;
-			children = (
-				17B0FF082216A5DE004B645A /* AnimalListViewType.swift */,
-				17B0FF0A2216A5F4004B645A /* AnimalDetailViewType.swift */,
-			);
-			path = ViewTypes;
-			sourceTree = "<group>";
-		};
 		17B12319221A4A8800B3E94F /* Repository */ = {
 			isa = PBXGroup;
 			children = (
@@ -578,11 +537,10 @@
 			children = (
 				17B1231D221A4ADE00B3E94F /* APIBase_Input.swift */,
 				17B1231F221A4AE900B3E94F /* APIBase_Output.swift */,
-				17B12321221A4B2500B3E94F /* APIBase_Request.swift */,
+				17B12321221A4B2500B3E94F /* APIBase_Service.swift */,
 				17B12325221A53B900B3E94F /* APIBase_UploadInput.swift */,
 				17B12327221A53C900B3E94F /* APIBase_UploadOutput.swift */,
 				17B12331221A627800B3E94F /* APIBase_UploadData.swift */,
-				17B12323221A4B4500B3E94F /* APIBase_Upload.swift */,
 				17B1232A221A558600B3E94F /* APIResponseError.swift */,
 			);
 			path = APIBase;
@@ -617,10 +575,10 @@
 		17B581CA221E484A00473129 /* AnimalList */ = {
 			isa = PBXGroup;
 			children = (
-				17B581D4221E4A4A00473129 /* AnimalListViewTests.swift */,
+				17B581D4221E4A4A00473129 /* AnimalListScreenViewTests.swift */,
+				17B581D6221E4A5D00473129 /* AnimalListPresenterTests.swift */,
 				17B581DC221E5B7400473129 /* AnimalListViewMock.swift */,
 				17B581D8221E4A7100473129 /* AnimalListInteractorMock.swift */,
-				17B581D6221E4A5D00473129 /* AnimalListPresenterTests.swift */,
 				17B581DA221E4A8B00473129 /* AnimalListRouterMock.swift */,
 			);
 			path = AnimalList;
@@ -629,13 +587,29 @@
 		17B581CB221E484A00473129 /* AnimalDetail */ = {
 			isa = PBXGroup;
 			children = (
-				17B581CC221E49B300473129 /* AnimalDetailViewTests.swift */,
-				17B581DE221E604400473129 /* AnimalDetailViewMock.swift */,
-				17B581D0221E4A0E00473129 /* AnimalDetailInteractorMock.swift */,
-				17B581CE221E49EC00473129 /* AnimalDetailPresenterTests.swift */,
-				17B581D2221E4A3000473129 /* AnimalDetailRouterMock.swift */,
+				17B581CC221E49B300473129 /* AnimalDetailsScreenViewTests.swift */,
+				17B581CE221E49EC00473129 /* AnimalDetailsPresenterTests.swift */,
+				17B581DE221E604400473129 /* AnimalDetailsViewMock.swift */,
+				17B581D0221E4A0E00473129 /* AnimalDetailsInteractorMock.swift */,
+				17B581D2221E4A3000473129 /* AnimalDetailsRouterMock.swift */,
 			);
 			path = AnimalDetail;
+			sourceTree = "<group>";
+		};
+		17D4307A22EFE838006A81E7 /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				17D4307B22EFE84E006A81E7 /* BaseViewController.swift */,
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		17D4307D22EFF2BA006A81E7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				17D4307E22EFF2D1006A81E7 /* AppSessionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		17D8AB94221B9F7900BE0A17 /* Zodiacs */ = {
@@ -657,27 +631,29 @@
 			path = Zodiacs;
 			sourceTree = "<group>";
 		};
-		DD426B7C288AE972A1C6F9F0 /* Frameworks */ = {
+		3300E65E6A9FF55E350C583C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B46679A93503813A0D4AE80 /* Pods_VIPERSwift.framework */,
-				EC15EFCE304229F59E5F5866 /* Pods_VIPERSwiftTests.framework */,
-				13605BC44D9D4EC675856F2F /* Pods_VIPERSwiftUITests.framework */,
+				17D4308B22F02E41006A81E7 /* Alamofire.framework */,
+				17D4308922F02E35006A81E7 /* Alamofire.framework */,
+				53BEBAAFC972FE3371810F9D /* Pods_VIPERSwift.framework */,
+				35BDA26DF2D675939A3A407C /* Pods_VIPERSwift_VIPERSwiftUITests.framework */,
+				A9878B2174E70874C51D3681 /* Pods_VIPERSwiftTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE6D68F682A96CC8EDE29551 /* Pods */ = {
+		3A58C3696BDD9A4180795E93 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90E8E579D3C7CE4FCA300C4D /* Pods-VIPERSwift.debug.xcconfig */,
-				4AC515A10F549FA8BE430642 /* Pods-VIPERSwift.release.xcconfig */,
-				6FCB12EF02564FC99161E16D /* Pods-VIPERSwiftTests.debug.xcconfig */,
-				6F9195080C9FB4DD091FB05F /* Pods-VIPERSwiftTests.release.xcconfig */,
-				8AF0952D9C20491905618F97 /* Pods-VIPERSwiftUITests.debug.xcconfig */,
-				90D4DBC5CD6B66084BC6EA27 /* Pods-VIPERSwiftUITests.release.xcconfig */,
+				FE42C51E897CD1069FABC5F5 /* Pods-VIPERSwift.debug.xcconfig */,
+				3DCFCD2CA4962A0FE95CB051 /* Pods-VIPERSwift.release.xcconfig */,
+				184729DA2D8748136CD33C3D /* Pods-VIPERSwift-VIPERSwiftUITests.debug.xcconfig */,
+				C5AEE18F6E7786BA6ECED1DE /* Pods-VIPERSwift-VIPERSwiftUITests.release.xcconfig */,
+				0E56888D24B88D181C0E7793 /* Pods-VIPERSwiftTests.debug.xcconfig */,
+				ED3D265979886C2704F42D63 /* Pods-VIPERSwiftTests.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -687,11 +663,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B0FEB4221674E8004B645A /* Build configuration list for PBXNativeTarget "VIPERSwift" */;
 			buildPhases = (
-				FA4A8CDAC174837DE769318F /* [CP] Check Pods Manifest.lock */,
+				DC4D28D46859E6B63639C0D6 /* [CP] Check Pods Manifest.lock */,
 				17B0FE88221674E7004B645A /* Sources */,
 				17B0FE89221674E7004B645A /* Frameworks */,
 				17B0FE8A221674E7004B645A /* Resources */,
-				B4B21D41157E6F094C242FD1 /* [CP] Embed Pods Frameworks */,
+				974B6789ECF8B75C62209FDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -706,7 +682,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B0FEB7221674E8004B645A /* Build configuration list for PBXNativeTarget "VIPERSwiftTests" */;
 			buildPhases = (
-				CD2C09D2C63751D68651DD42 /* [CP] Check Pods Manifest.lock */,
+				572C988810A7175E56EAFA0B /* [CP] Check Pods Manifest.lock */,
 				17B0FE9C221674E8004B645A /* Sources */,
 				17B0FE9D221674E8004B645A /* Frameworks */,
 				17B0FE9E221674E8004B645A /* Resources */,
@@ -725,10 +701,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B0FEBA221674E8004B645A /* Build configuration list for PBXNativeTarget "VIPERSwiftUITests" */;
 			buildPhases = (
-				DCD63E1D36266BADC6D8ED41 /* [CP] Check Pods Manifest.lock */,
+				B84E376F6E2F674DDD00F583 /* [CP] Check Pods Manifest.lock */,
 				17B0FEA7221674E8004B645A /* Sources */,
 				17B0FEA8221674E8004B645A /* Frameworks */,
 				17B0FEA9221674E8004B645A /* Resources */,
+				087F9765E4A8011E508A722E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -795,16 +772,17 @@
 				17B0FE9A221674E8004B645A /* LaunchScreen.storyboard in Resources */,
 				17B581C3221E42B700473129 /* .gitignore in Resources */,
 				17D8ABB6221BBDEE00BE0A17 /* background_list.png in Resources */,
-				1783326A221ABF9100E153A1 /* AnimalListView.xib in Resources */,
+				17D4308522EFFC47006A81E7 /* AnimalDetailsScreenView.storyboard in Resources */,
 				17D8ABA8221B9F7A00BE0A17 /* buffalo.jpg in Resources */,
 				17D8ABAC221B9F7A00BE0A17 /* goat.jpg in Resources */,
 				17B0FE97221674E8004B645A /* Assets.xcassets in Resources */,
-				17D8ABB0221BA0AB00BE0A17 /* AnimalDetailView.xib in Resources */,
 				17833268221ABC6E00E153A1 /* AnimalCell.xib in Resources */,
 				17D8ABA6221B9F7A00BE0A17 /* mouse.jpg in Resources */,
+				17D4307922EFE7D6006A81E7 /* AnimalListScreenView.storyboard in Resources */,
 				17D8ABAB221B9F7A00BE0A17 /* snake.jpg in Resources */,
 				17B0FED6221675A0004B645A /* Default-568h@2x.png in Resources */,
 				17B0FE95221674E7004B645A /* Main.storyboard in Resources */,
+				17D4307522EFDE8F006A81E7 /* Localizable.strings in Resources */,
 				17D8ABB4221BB27700BE0A17 /* background_detail.png in Resources */,
 				17D8ABAA221B9F7A00BE0A17 /* pig.jpg in Resources */,
 				17D8ABA9221B9F7A00BE0A17 /* monkey.jpg in Resources */,
@@ -831,36 +809,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B4B21D41157E6F094C242FD1 /* [CP] Embed Pods Frameworks */ = {
+		087F9765E4A8011E508A722E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPERSwift-VIPERSwiftUITests/Pods-VIPERSwift-VIPERSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPERSwift-VIPERSwiftUITests/Pods-VIPERSwift-VIPERSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIPERSwift-VIPERSwiftUITests/Pods-VIPERSwift-VIPERSwiftUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD2C09D2C63751D68651DD42 /* [CP] Check Pods Manifest.lock */ = {
+		572C988810A7175E56EAFA0B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-VIPERSwiftTests-checkManifestLockResult.txt",
 			);
@@ -869,34 +848,59 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCD63E1D36266BADC6D8ED41 /* [CP] Check Pods Manifest.lock */ = {
+		974B6789ECF8B75C62209FDD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIPERSwift/Pods-VIPERSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84E376F6E2F674DDD00F583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VIPERSwiftUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VIPERSwift-VIPERSwiftUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA4A8CDAC174837DE769318F /* [CP] Check Pods Manifest.lock */ = {
+		DC4D28D46859E6B63639C0D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-VIPERSwift-checkManifestLockResult.txt",
 			);
@@ -915,46 +919,43 @@
 				17B12332221A627800B3E94F /* APIBase_UploadData.swift in Sources */,
 				17B12338221A65A800B3E94F /* Local+Animal.swift in Sources */,
 				17B0FEDE22167798004B645A /* Interactor.swift in Sources */,
-				17B0FEE82216795D004B645A /* AnimalDetailPresenter.swift in Sources */,
+				17B0FEE82216795D004B645A /* AnimalDetailsPresenter.swift in Sources */,
 				17B12320221A4AE900B3E94F /* APIBase_Output.swift in Sources */,
-				17B0FEEA2216796D004B645A /* AnimalDetailRouter.swift in Sources */,
+				17D4307C22EFE84E006A81E7 /* BaseViewController.swift in Sources */,
+				17D4308722F00559006A81E7 /* UIView+Extensions.swift in Sources */,
+				17B0FEEA2216796D004B645A /* AnimalDetailsRouter.swift in Sources */,
 				1783326C221AC02400E153A1 /* ScreenNames.swift in Sources */,
 				17B12328221A53C900B3E94F /* APIBase_UploadOutput.swift in Sources */,
-				17B0FEE422167942004B645A /* AnimalDetailView.swift in Sources */,
-				17B0FEF422167A6A004B645A /* AnimalListInteractorType.swift in Sources */,
+				17B0FEE422167942004B645A /* AnimalDetailsScreenView.swift in Sources */,
 				17B1231E221A4ADE00B3E94F /* APIBase_Input.swift in Sources */,
-				17833261221ABB2600E153A1 /* NSObjectExtension.swift in Sources */,
-				17833263221ABC1A00E153A1 /* UITableViewExtension.swift in Sources */,
+				17833261221ABB2600E153A1 /* NSObject+Extensions.swift in Sources */,
+				17833263221ABC1A00E153A1 /* UITableView+Extensions.swift in Sources */,
 				17B0FEF2221679CD004B645A /* AnimalListRouter.swift in Sources */,
 				17B0FEDA2216777F004B645A /* Presenter.swift in Sources */,
 				17B1232B221A558600B3E94F /* APIResponseError.swift in Sources */,
-				17B0FF0B2216A5F4004B645A /* AnimalDetailViewType.swift in Sources */,
 				17B12336221A659800B3E94F /* API+Animal.swift in Sources */,
-				17B0FEF622167A7F004B645A /* AnimalDetailInteractorType.swift in Sources */,
 				17833267221ABC6E00E153A1 /* AnimalCell.swift in Sources */,
 				17B12334221A634900B3E94F /* APIRequestComponents.swift in Sources */,
-				17B0FEE622167951004B645A /* AnimalDetailInteractor.swift in Sources */,
+				17D4308122EFF334006A81E7 /* User.swift in Sources */,
+				17B0FEE622167951004B645A /* AnimalDetailsInteractor.swift in Sources */,
 				17B0FEF0221679BE004B645A /* AnimalListPresenter.swift in Sources */,
 				17B0FED32216754E004B645A /* AppDelegate.swift in Sources */,
-				17B12322221A4B2500B3E94F /* APIBase_Request.swift in Sources */,
+				17B12322221A4B2500B3E94F /* APIBase_Service.swift in Sources */,
 				17B0FF0022167B6F004B645A /* Animal.swift in Sources */,
-				17B12324221A4B4500B3E94F /* APIBase_Upload.swift in Sources */,
 				17B0FEE0221677A5004B645A /* Router.swift in Sources */,
-				17D8ABB2221BA66700BE0A17 /* UIViewControllerExtension.swift in Sources */,
+				17D8ABB2221BA66700BE0A17 /* UIViewController+Extensions.swift in Sources */,
 				17B1232E221A5EDB00B3E94F /* AnimalListRepository.swift in Sources */,
-				17B0FEF822167AB1004B645A /* AnimalListPresenterType.swift in Sources */,
+				17D4307722EFE29C006A81E7 /* AnimalListModuleTypes.swift in Sources */,
 				17B12330221A5EEE00B3E94F /* AnimalDetailRepository.swift in Sources */,
-				17B0FEFE22167AF0004B645A /* AnimalListRouterType.swift in Sources */,
-				17B0FEEC2216799F004B645A /* AnimalListView.swift in Sources */,
-				17B0FEFA22167AC6004B645A /* AnimalDetailPresenterType.swift in Sources */,
+				17B0FEEC2216799F004B645A /* AnimalListScreenView.swift in Sources */,
 				17B0FEDC2216778D004B645A /* View.swift in Sources */,
 				17B0FEEE221679AE004B645A /* AnimalListInteractor.swift in Sources */,
-				17B0FF092216A5DE004B645A /* AnimalListViewType.swift in Sources */,
+				17D4307F22EFF2D1006A81E7 /* AppSessionManager.swift in Sources */,
 				17B0FE92221674E7004B645A /* ViewController.swift in Sources */,
 				17B0FED822167772004B645A /* Entity.swift in Sources */,
 				17B12326221A53B900B3E94F /* APIBase_UploadInput.swift in Sources */,
-				17B0FEFC22167AE3004B645A /* AnimalDetailRouterType.swift in Sources */,
 				17B1231C221A4AA000B3E94F /* Repository.swift in Sources */,
+				17D4308322EFF9AE006A81E7 /* AnimalDetailsModuleTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -963,18 +964,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B581D9221E4A7100473129 /* AnimalListInteractorMock.swift in Sources */,
-				17B581D5221E4A4A00473129 /* AnimalListViewTests.swift in Sources */,
-				17B581DF221E604400473129 /* AnimalDetailViewMock.swift in Sources */,
+				17B581D5221E4A4A00473129 /* AnimalListScreenViewTests.swift in Sources */,
+				17B581DF221E604400473129 /* AnimalDetailsViewMock.swift in Sources */,
 				17B0FEA5221674E8004B645A /* VIPERSwiftTests.swift in Sources */,
-				17B581D3221E4A3100473129 /* AnimalDetailRouterMock.swift in Sources */,
-				17B581CD221E49B300473129 /* AnimalDetailViewTests.swift in Sources */,
+				17B581D3221E4A3100473129 /* AnimalDetailsRouterMock.swift in Sources */,
+				17B581CD221E49B300473129 /* AnimalDetailsScreenViewTests.swift in Sources */,
 				17B581C9221E449300473129 /* Mockable.swift in Sources */,
 				17B581DD221E5B7400473129 /* AnimalListViewMock.swift in Sources */,
 				17B581D7221E4A5E00473129 /* AnimalListPresenterTests.swift in Sources */,
 				17B581C7221E443500473129 /* AnimalMock.swift in Sources */,
 				17B581DB221E4A8B00473129 /* AnimalListRouterMock.swift in Sources */,
-				17B581D1221E4A0E00473129 /* AnimalDetailInteractorMock.swift in Sources */,
-				17B581CF221E49EC00473129 /* AnimalDetailPresenterTests.swift in Sources */,
+				17B581D1221E4A0E00473129 /* AnimalDetailsInteractorMock.swift in Sources */,
+				17B581CF221E49EC00473129 /* AnimalDetailsPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -982,7 +983,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17B0FEB0221674E8004B645A /* VIPERSwiftUITests.swift in Sources */,
+				17D4308822F02ACD006A81E7 /* VIPERSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1024,6 +1025,7 @@
 		17B0FEB2221674E8004B645A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1072,19 +1074,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		17B0FEB3221674E8004B645A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1127,19 +1131,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		17B0FEB5221674E8004B645A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90E8E579D3C7CE4FCA300C4D /* Pods-VIPERSwift.debug.xcconfig */;
+			baseConfigurationReference = FE42C51E897CD1069FABC5F5 /* Pods-VIPERSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1157,7 +1162,7 @@
 		};
 		17B0FEB6221674E8004B645A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC515A10F549FA8BE430642 /* Pods-VIPERSwift.release.xcconfig */;
+			baseConfigurationReference = 3DCFCD2CA4962A0FE95CB051 /* Pods-VIPERSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1175,7 +1180,7 @@
 		};
 		17B0FEB8221674E8004B645A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FCB12EF02564FC99161E16D /* Pods-VIPERSwiftTests.debug.xcconfig */;
+			baseConfigurationReference = 0E56888D24B88D181C0E7793 /* Pods-VIPERSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1196,7 +1201,7 @@
 		};
 		17B0FEB9221674E8004B645A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F9195080C9FB4DD091FB05F /* Pods-VIPERSwiftTests.release.xcconfig */;
+			baseConfigurationReference = ED3D265979886C2704F42D63 /* Pods-VIPERSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1217,7 +1222,7 @@
 		};
 		17B0FEBB221674E8004B645A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AF0952D9C20491905618F97 /* Pods-VIPERSwiftUITests.debug.xcconfig */;
+			baseConfigurationReference = 184729DA2D8748136CD33C3D /* Pods-VIPERSwift-VIPERSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1237,7 +1242,7 @@
 		};
 		17B0FEBC221674E8004B645A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90D4DBC5CD6B66084BC6EA27 /* Pods-VIPERSwiftUITests.release.xcconfig */;
+			baseConfigurationReference = C5AEE18F6E7786BA6ECED1DE /* Pods-VIPERSwift-VIPERSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

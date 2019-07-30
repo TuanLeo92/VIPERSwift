@@ -9,6 +9,13 @@
 import Foundation
 
 enum APIResponseError: Error {
-    case invalidData
+    case invalidResponseData
+    case expiredToken
+    case error(response: APIBaseOutput)
+    case unknown(statusCode: Int)
     //...
+}
+
+final class ResponseError: APIBaseOutput {
+    
 }

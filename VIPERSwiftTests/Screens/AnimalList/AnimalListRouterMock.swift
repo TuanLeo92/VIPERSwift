@@ -11,13 +11,12 @@ import UIKit
 
 class AnimalListRouterMock: AnimalListRouterType {
     
-    var pushToAnimalDetail_Called = false
+    var presenter: AnimalListPresenterType!
+    weak var navigationController: UINavigationController?
     
-    static func createAnimalListPresenter(_ referenceView: AnimalListView) {
-        
-    }
+    var goToAnimalDetailScreen_Called = false
     
-    func pushToAnimalDetail(with animal: Animal, from navigation: UINavigationController?) {
-        pushToAnimalDetail_Called = true
+    func goToAnimalDetailScreen(with animal: Animal) {
+        goToAnimalDetailScreen_Called = true
     }
 }

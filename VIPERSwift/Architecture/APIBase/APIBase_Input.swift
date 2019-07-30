@@ -15,6 +15,8 @@ class APIBaseInput {
     let parameters: [String: Any]?
     var encoding: ParameterEncoding
     let isTokenRequired: Bool
+    var headers: [String: String] = [:]
+    var accessToken: String = ""
     
     init(urlString: String, method: HTTPMethod, parameters: [String: Any]?, isTokenRequired: Bool = true) {
         self.urlString = urlString
@@ -24,4 +26,3 @@ class APIBaseInput {
         self.isTokenRequired = isTokenRequired
     }
 }
-

@@ -7,8 +7,11 @@
 //
 
 import Foundation
+import UIKit
 
 protocol Router: class {
+    
+    var navigationController: UINavigationController? { set get }
     
 }
 

@@ -24,3 +24,4 @@ class APIService: APIServiceType {
         return APIBaseOutput() as! T
     }
 }
+

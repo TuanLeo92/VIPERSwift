@@ -25,21 +25,24 @@ class AnimalListPresenterTests: XCTestCase {
         interactor = AnimalListInteractorMock()
         router = AnimalListRouterMock()
         
-        
         presenter = AnimalListPresenter()
         presenter.view = view
         presenter.interactor = interactor
         presenter.router = router
     }
     
-    func test_loadAnimals() {
-        presenter.loadAnimals()
-        XCTAssertTrue(interactor.fetchAnimalListFromLocal_Called)
-        XCTAssertTrue(view.showAnimalList_Called)
+    func test_viewDidLoad() {
+        presenter.viewDidLoad()
+        XCTAssertTrue(interactor.fetchAnimalList_Called)
     }
     
-    func test_showAnimalDetail() {
-        presenter.showAnimalDetail(with: Animal.mock(), from: nil)
-        XCTAssertTrue(router.pushToAnimalDetail_Called)
+    func test_displayAnimalList() {
+        presenter.displayAnimalList([Animal()])
+        XCTAssertTrue(view.displayAnimalList_Called)
+    }
+    
+    func test_goToAnimalDetail() {
+        presenter.goToAnimalDetail(with: Animal())
+        XCTAssertTrue(router.goToAnimalDetailScreen_Called)
     }
 }

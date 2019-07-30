@@ -10,14 +10,14 @@
 
 class AnimalListViewMock: AnimalListViewType {
     
-    var createAnimalListPresenter_Called = false
-    var showAnimalList_Called = false
+    var createPresenter_Called = false
+    var displayAnimalList_Called = false
     
-    func createAnimalListPresenter(_ referenceView: AnimalListView) {
-        createAnimalListPresenter_Called = true
+    func createPresenter() {
+        createPresenter_Called = true
     }
     
-    func showAnimalList(_ animals: [Animal]) {
-        showAnimalList_Called = true
+    func displayAnimalList(_ animals: [Animal]) {
+        displayAnimalList_Called = true
     }
 }

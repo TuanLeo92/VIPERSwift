@@ -7,12 +7,24 @@
 //
 
 import Foundation
+import RxSwift
 
-protocol AnimalDetailRepositoryType {
+protocol AnimalDetailsRepositoryType {
+    
+    func fetchAnimalDetails(animalId id: Int) -> Observable<Animal>
     
 }
 
-final class AnimalDetailRepository: AnimalDetailRepositoryType {
+final class AnimalDetailsRepository: AnimalDetailsRepositoryType {
     
-
+    func fetchAnimalDetails(animalId id: Int) -> Observable<Animal> {
+        let input = GetAnimalDetailsInput(animalId: id)
+        return APIService.shared.fetchAnimalDetails(input)
+            .map({ output -> Animal in
+                if let animal = output.animal {
+                    return animal
+                }
+                throw APIResponseError.invalidResponseData
+            })
+    }
 }

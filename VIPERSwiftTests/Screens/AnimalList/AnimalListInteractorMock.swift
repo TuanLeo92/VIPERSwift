@@ -11,15 +11,18 @@
 @testable import VIPERSwift
 
 class AnimalListInteractorMock: AnimalListInteractorType {
-    
+
     var presenter: AnimalListPresenterType!
     var repository: AnimalListRepositoryType!
     
-    var fetchAnimalListFromLocal_Called = false
-    var fetchAnimalListFromLocal_ReturnValue: [Animal] = [Animal.mock()]
+    var fetchAnimalList_Called = false
+    var saveAnimalList_Called = false
+
+    func fetchAnimalList() {
+        fetchAnimalList_Called = true
+    }
     
-    func fetchAnimalListFromLocal() -> [Animal] {
-        fetchAnimalListFromLocal_Called = true
-        return fetchAnimalListFromLocal_ReturnValue
+    func saveAnimalList(_ animals: [Animal]) {
+        saveAnimalList_Called = true
     }
 }

@@ -17,7 +17,7 @@ struct APIEndPoint {
     }
     
     private static let version = "/api/v1"
-    
+
     #if DEBUG
     static let endPoint = Host.development.rawValue + version
     #else
@@ -27,21 +27,22 @@ struct APIEndPoint {
 }
 
 struct APIRequest {
-    //MARK: Url String
+    
+    // MARK: - Url String
     struct URLString {
-       
-        struct Animal {
-            static let animals = APIEndPoint.endPoint + "/animals"
-            static let animal = APIEndPoint.endPoint + "/animals/{id}"
-        }
+        
+        // Animal
+        static let animals = APIEndPoint.endPoint + "/animals"
+        static let animal = APIEndPoint.endPoint + "/animals/%d"
+        
     }
     
-    //MARK: Method
+    // MARK: - Method
     struct Method {
-
-        struct Animal {
-            static let animals = Alamofire.HTTPMethod.get
-            static let animal = Alamofire.HTTPMethod.get
-        }
+        
+        // Animal
+        static let animals = Alamofire.HTTPMethod.get
+        static let animal = Alamofire.HTTPMethod.get
+        
     }
 }
